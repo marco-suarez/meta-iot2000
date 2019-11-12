@@ -1,11 +1,11 @@
 LICENSE = "GPLv2"
 LIC_FILES_CHKSUM = "file://COPYING;md5=d7810fab7487fb0aad327b76f1be7cd7"
 
-LINUX_VERSION = "4.4.185-cip35"
+LINUX_VERSION = "4.4.199-cip39"
 SRC_URI = " \
     https://git.kernel.org/pub/scm/linux/kernel/git/cip/linux-cip.git/snapshot/linux-cip-${LINUX_VERSION}.tar.gz \
     ${KERNEL_PATCHES}"
-SRC_URI[sha256sum] = "fcdd46615fdc7e0e4ad3d73465d1489e3af72ed09efb8c748abec7be38586a5b"
+SRC_URI[sha256sum] = "e887ba460529c79a668f6eedf46f63400bddedb6a84ededb2ba592abdd44fe87"
 
 KERNEL_PATCHES = " \
     file://0001-stmmac-pci-Make-stmmac_pci_info-structure-constant.patch \
